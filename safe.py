@@ -92,7 +92,7 @@ except ImportError:
 #class MyMixin(UserDict.DictMixin):
 #    pass
 #except ImportError:
-from collections import MutableMapping as DictMixin
+from collections.abc import MutableMapping as DictMixin
 from collections import UserDict
 #  class MyMixin(UserDict, DictMixin):
 #    pass
